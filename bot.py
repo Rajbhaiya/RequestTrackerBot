@@ -295,7 +295,7 @@ async def requestHandler(bot:Update, msg:Message):
                         [
                             InlineKeyboardButton(
                                 "📊 See Status 📊",
-                                url = f"https://t.me/c/{channelID}"
+                                url = f"https://t.me/c/{channelIDPro}/{requestMSG.message_id}"
                             )
                         ]
                     ]
