@@ -381,7 +381,7 @@ async def callBackButton(bot:Update, callback_query:CallbackQuery):
                         )
 
                         # Result of request sent to group
-                        replyText = f"<b>Dear {mentionUser} \nYour request for <b><em>{contentRequested}</b></em> {groupResult}.</b>"
+                        replyText = f"Dear {mentionUser} \nYour request for <b><em>{contentRequested}</b></em> {groupResult}."
                         await bot.send_message(
                             int(groupID),
                             replyText,
